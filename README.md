@@ -77,3 +77,11 @@ Configure the **Grafana** Data Source to have :
 -   All the **InfluxDB** details with the user and password
 
 **Save**  the settings and test.
+
+## Launch project 
+
+To launch the full solution you can prompt the following command lines at projects root:
+```
+    npm install
+    node index.js
+```
