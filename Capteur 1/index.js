@@ -48,10 +48,7 @@ function start() {
     default:
       console.log('Invalid code');
       break;
-  }
-
-  
-		
+  }	
 }				
 							
 setInterval(() => start(), 2000);			
