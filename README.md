@@ -38,19 +38,18 @@ Use homebrew to install the dependecies :
 
  - **NodeJS** : `arch -arm64 brew install nodejs`
  - **Grafana** : `arch -arm64 brew install grafana`
- - **InfluxDB** :  `arch -arm64 brew install influxdb`
- - **InfluxDB CLI** : 
+ - **InfluxDB** : `arch -arm64 brew install influxdb`
+ - **InfluxDB CLI** : `arch -arm64 brew install influxdb-cli`
 
 To start **InfluxDB**, open a command line prompt : `influxd`
 Now you can connect on localhost:8086 and create a  **API Token**
-
-Install  **InfluxDB**  **CLI**  with homebrew :  `arch -arm64 brew install influxdb-cli`
+Config the **InfluxDB** with the following command in a command line prompt
 ```
     influx config create -n [your config name] -u [url to db wish is localhost in theis case] -o keyce -t [te token you generated]
 ```
 
 Create a  **Bucket**  in  **InfluxDB**  
-Create a  **DBRP**  mapping for  **InfluxDB**  :
+Create a  **DBRP**  mapping for  **InfluxDB**  with the following prompt:
 
 ```
 	influx v1 dbrp create --db [db name] --rp [rp name] --bucket-id [bucket ID] --default
