@@ -85,3 +85,4 @@ To launch the full solution you can prompt the following command lines at projec
     npm install
     node index.js
 ```
+In Middleware/index.js, you must change values of variables : Token (with your token), Url, Org (with your organisation name) and Bucket (with your bucket ID).
